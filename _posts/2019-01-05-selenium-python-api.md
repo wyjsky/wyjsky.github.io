@@ -1,8 +1,10 @@
-Selenium Python API
+Selenium Python API(WebDriver)
 ==========
-***********************
+***********************  
 
-###WebDriver操纵浏览器
+
+### WebDriver操纵浏览器
+
 1.获取当前页面的url地址:  
 driver.current_url
 
@@ -21,7 +23,7 @@ driver.title
 6.获取当前session里所有窗口的句柄:  
 driver.window_handles
 
-###WebDriver与浏览器窗口、网页和页面元素交互
+### WebDriver与浏览器窗口、网页和页面元素交互
 
 1.回退到之前打开的页面:  
 driver.back()
@@ -57,19 +59,16 @@ driver.switch\_to\_alert()
 driver.switch\_to\_default\_content()
 
 12.通过索引、名称和网页元素将焦点切换到指定的框架:  
-driver.switch_to_frame('frame_reference')
+driver.switch\_to\_frame('frame_reference')
 
 13.切换焦点到指定的窗口:  
-driver.switch_to_window('main')
+driver.switch\_to\_window('main')
 
 14.超时设置等待目标元素被找到:  
 driver.implicitly\_wait(30)
 
 15.设置一个页面完全加载完成的超时等待时间:  
-driver.set_page_load_timeout(30)
+driver.set\_page\_load\_timeout(30)
 
 16.设置脚本执行的超时时间:  
-driver.set_script_timeout(30)
-
-
-
+driver.set\_script\_timeout(30)
